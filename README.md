@@ -27,5 +27,5 @@ La librería está dividida en los siguientes módulos funcionales, garantizando
 ## Autoría y Contexto Académico
 
 * **Autora**: Leslye Valeria Osorno Amaya
-* **Director de Tesis**: Abel Palafox González
+* **Director de Tesis**: Dr, Abel Palafox González
 * **Institución**: Universidad de Guadalajara, División de Ciencias Básicas

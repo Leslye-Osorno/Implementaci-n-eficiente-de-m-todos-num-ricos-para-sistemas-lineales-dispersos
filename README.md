@@ -2,7 +2,12 @@
 
 Este repositorio contiene el código fuente y las librerías desarrolladas como parte de la tesis para obtener el título de Matemática en el Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI) de la Universidad de Guadalajara.
 
-El proyecto consiste en una librería escrita de forma modular en el lenguaje C, enfocada en resolver sistemas de ecuaciones lineales explotando de forma eficiente la estructura de las matrices dispersas para reducir tanto el consumo de memoria como el tiempo de cómputo.
+El proyecto está estructurado en 4 librerías principales desarrolladas en C, cada una esta enfocada en resolver sistemas de ecuaciones lineales explotando de forma eficiente la estructura de las matrices dispersas para reducir tanto el consumo de memoria como el tiempo de cómputo.Cada una enfocada en una variante específica de almacenamiento y manipulación de matrices dispersas:
+
+* `coo1`: Implementación y rutinas operativas para el formato de Lista de Coordenadas (COO) - Variante 1.
+* `coo2`: Implementación y rutinas operativas para el formato de Lista de Coordenadas (COO) - Variante 2.
+* `lil1`: Implementación y rutinas operativas para el formato de Lista de Listas (LIL) - Variante 1.
+* `lil2`: Implementación y rutinas operativas para el formato de Lista de Listas (LIL) - Variante 2.
 
 ## Características Principales
 
@@ -15,7 +20,7 @@ El proyecto consiste en una librería escrita de forma modular en el lenguaje C,
 
 ## Arquitectura del Código
 
-La librería está dividida en los siguientes módulos funcionales, garantizando independencia y escalabilidad:
+Cada librería está dividida en los siguientes módulos funcionales, garantizando independencia y escalabilidad:
 
 * `main.c`: Interfaz principal mediante menús interactivos, inicialización de datos, cronometraje de ejecución y llamado a rutinas de exportación.
 * `metodos_lineales.c` / `.h`: Contiene la lógica de los resolvedores lineales (PLU, Cholesky, Gradiente Conjugado) abstraídos mediante estructuras intermedias optimizadas.
